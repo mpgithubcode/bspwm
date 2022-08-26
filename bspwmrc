@@ -3,6 +3,9 @@
 # Setting Script Path
 PATH=$PATH:/home/$USER/.local/bin
 
+killall conky
+conky &
+
 tlp start
 tlp-rdw start
 
