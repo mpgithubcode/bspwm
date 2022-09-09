@@ -5,6 +5,8 @@ PATH=$PATH:/home/$USER/.local/bin
 
 killall conky
 conky &
+eww kill
+# eww --restart open bar
 
 tlp start
 tlp-rdw start
